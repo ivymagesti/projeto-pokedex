@@ -17,7 +17,7 @@
     <main>
         <div class="pokedex">
             <div class="cartoes-pokemon">
-                <div class="cartao-pokemon aberto tipo-eletrico"><!--pikachu-->
+                <div class="cartao-pokemon aberto tipo-eletrico" id="cartao-pikachu"><!--pikachu-->
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Pikachu</h2>
@@ -54,7 +54,7 @@
                     </div>
                 </div>
 
-                <div class="cartao-pokemon tipo-grama"> <!---bulbassaur-->
+                <div class="cartao-pokemon tipo-grama" id="cartao-bulbassaur"> <!---bulbassaur-->
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Bulbassaur</h2>
@@ -91,7 +91,7 @@
                     </div>
                 </div>
 
-                <div class="cartao-pokemon tipo-fogo"> <!--charmander-->
+                <div class="cartao-pokemon tipo-fogo" id="cartao-charmander"> <!--charmander-->
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Charmander</h2>
@@ -128,7 +128,7 @@
                     </div>
                 </div>
 
-                <div class="cartao-pokemon tipo-dragao"> <!--dragonite-->
+                <div class="cartao-pokemon tipo-dragao" id="cartao-dragonite"> <!--dragonite-->
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Dragonite</h2>
@@ -165,7 +165,7 @@
                     </div>
                 </div>
 
-                <div class="cartao-pokemon tipo-trevas"> <!--gengar-->
+                <div class="cartao-pokemon tipo-trevas" id="cartao-gengar"> <!--gengar-->
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Gengar</h2>
@@ -201,7 +201,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="cartao-pokemon tipo-agua"> <!--gyarados-->
+                <div class="cartao-pokemon tipo-agua" id="cartao-gyarados"> <!--gyarados-->
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Gyarados</h2>
@@ -241,27 +241,27 @@
 
             <nav class="listagem">
                 <ul>
-                    <li class="pokemon ativo">
+                    <li class="pokemon ativo" id="pikachu">
                         <img src="imagens-pokedex/imagens/cabeca-pikachu.png" alt="cabeça do pikachu">
                         <span>Pikachu</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id="bulbassaur">
                         <img src="imagens-pokedex/imagens/cabeca-bulbasaur.png" alt="cabeça do bulbasaur">
                         <span>Bulbassaur</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id="charmander">
                         <img src="imagens-pokedex/imagens/cabeca-charmander.png" alt="cabeça do charmander">
                         <span>Charmander</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id="dragonite">
                         <img src="imagens-pokedex/imagens/cabeca-dragonite.png" alt="cabeça do dragonite">
                         <span>Dragonite</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id="gengar">
                         <img src="imagens-pokedex/imagens/cabeca-gengar.png" alt="cabeça do gengar">
                         <span>Gengar</span>
                     </li>
-                    <li class="pokemon">
+                    <li class="pokemon" id="gyarados">
                         <img src="imagens-pokedex/imagens/cabeca-gyarados.png" alt="cabeça do charmander">
                         <span>Gyarados</span>
                     </li>
@@ -269,6 +269,7 @@
             </nav>
         </div>
     </main>
+    <script src="index.js"></script>
 </body>
 
 </html>
